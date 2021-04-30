@@ -1276,13 +1276,9 @@ img {
       padding: 20px;
       border-bottom: 0px ridge;
       min-height: 700px; }
-      #rec-movies img{
-        height: 400px;
-        box-shadow: -4px 4px 5px 0 #000;
-      }
   .left-box
   {
-     
+      color:#fff ; 
   }
   .left-box a
   {

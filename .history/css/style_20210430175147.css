@@ -1272,28 +1272,24 @@ img {
     border-bottom: 0px ridge;
     min-height: 700px; }
     #rec-movies {
-      margin: 3% 0;
-      padding: 20px;
+      margin: 20px auto;
+      padding: 100px 100px 100px 100px;
       border-bottom: 0px ridge;
       min-height: 700px; }
-      #rec-movies img{
-        height: 400px;
-        box-shadow: -4px 4px 5px 0 #000;
+      .left-box
+      {
+         color:#fff ; 
       }
-  .left-box
-  {
-     
-  }
-  .left-box a
-  {
-      text-decoration: none !important;
-      
-      border-radius: 30px;
-      padding: 13px 20px;
-      margin-top: 15px;
-      color: #fff !important;
-      background: #0f1975;
-      font-weight: 600;
-      display:inline-block;
-      margin-right:10px;  
-  }
+      .left-box a
+      {
+          text-decoration: none !important;
+          
+          border-radius: 30px;
+          padding: 13px 20px;
+          margin-top: 15px;
+          color: #fff !important;
+          background: #0f1975;
+          font-weight: 600;
+          display:inline-block;
+          margin-right:10px;  
+      }
