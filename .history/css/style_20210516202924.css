@@ -1148,7 +1148,7 @@ a {
   left: 0;
   margin-bottom: 30px; }
   .image-wrap-2:before {
-    position: absolute;
+    position: relative;
     content: "";
     left: 0;
     right: 0;

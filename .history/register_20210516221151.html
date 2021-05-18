@@ -30,19 +30,22 @@
 
 <body>
     <div class="site-section"  data-aos="fade">
-        <div class="container">  
-          <div class="row justify-content-center">  
+        <div class="container">
+  
+          <div class="row justify-content-center">
+  
             <div class="col-md-7">
               <div class="row mb-5">
                 <div class="col-12 ">
                   <h2 class="site-section-heading text-center">Create an Account!</h2>
                 </div>
               </div>
-            </div> 
+            </div>
+  
           </div>
           
-            <div class="row justify-content-center">
-                <div class="col-lg-8 mb-5">
+            <div class="row">
+                <div class="col-lg-8 mb-5 justify-content-center">
                     <form action="#">
                         <div class="row form-group">
                             <div class="col-md-6 mb-3 mb-sm-0"><input class="form-control" 
@@ -64,34 +67,12 @@
                                 type="password" id="exampleRepeatPasswordInput" placeholder="Repeat Password" name="password_repeat">
                             </div>
                         </div>
-                        <div class="form-group">
-                        <button class="btn btn-primary btn-block text-white btn-user" type="submit">Register Account</button>
-                        </div>
-
-                        <div class="form-group" id="my-signin2"></div>  
-                        <script>
-                            function onSuccess(googleUser) {
-                              console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-                            }
-                            function onFailure(error) {
-                              console.log(error);
-                            }
-                            function renderButton() {
-                              gapi.signin2.render('my-signin2', {
-                                'scope': 'profile email',
-                                'width': 240,
-                                'height': 50,
-                                'longtitle': true,
-                                'theme': 'dark',
-                                'onsuccess': onSuccess,
-                                'onfailure': onFailure
-                              });
-                            }
-                          </script>
+                        <button class="btn btn-primary btn-block text-white btn-user" type="submit">Register Account</button>    
                     </form>
                 </div>
             </div>
         </div>
+    </div>
   
       <div class="footer py-4">
         <div class="container-fluid text-center">
@@ -99,10 +80,14 @@
             Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved 
           </p>
         </div>
-      </div> 
+      </div>
+  
+      
+  
+      
       
     </div>
-    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+  
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="js/jquery-ui.js"></script>
