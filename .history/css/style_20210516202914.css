@@ -1148,7 +1148,7 @@ a {
   left: 0;
   margin-bottom: 30px; }
   .image-wrap-2:before {
-    position: absolute;
+    position: relative;
     content: "";
     left: 0;
     right: 0;
@@ -1164,6 +1164,8 @@ a {
     filter: none;
     /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .1s ease-in-out; 
+    position: absolute;
+
     width: 100% !important;
     min-width: 100% !important;
   }
