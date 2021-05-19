@@ -41,7 +41,7 @@ body
 
 
 }
-.other img : hover{
+.other img:hover{
     transform: translateY(-10px);
 }
 
